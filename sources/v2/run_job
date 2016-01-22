@@ -1,0 +1,14 @@
+
+#!/bin/bash
+
+
+#export SNAP_NETWORK_ADDRESS=192.168.0.12
+
+#export SNAP_DEBUG=xfer
+#export ETH_HOST_PORT_0=11211
+
+export USE_VIRT_CARD=ajaxc02
+
+ex_ethernet_streams -c 3 -n 5
+
+

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+#       -n Number of vectors    Default is 5  Max number is 1024
+#       -m Maximum length of vector
+#       -a Server Address         
+#       -p Server Port          Default is 11211
+#       -s Nanosec to sleep between sends  Default is 100
+#       -S Number of seconds to wait before sending  Default is 5
+#       -l Length of vector     Default is 20    
+#       -f Output data has the vector number added
+#       -v Print details of vectors sent/received
+
+#./clien*dbg -s 100 -n 10 -a ajaxc02p5 -p 11221 -l 20 -v
+#./clien*dbg -S 0 -s 10 -n 10 -a 10.0.15.11 -p 11211 -l 50 -v -f
+
+
+#gemini3
+./clien*dbg -S 0 -s 10 -n 10 -a 10.3.200.110 -p 11211 -l 50 -v -f
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export SNAP_NETWORK_ADDRESS=192.168.0.12
+
+export SNAP_DEBUG=xfer

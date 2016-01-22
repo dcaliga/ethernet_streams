@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+export SNAP_NETWORK_ADDRESS=192.168.0.10
+
+
+set_power -c gemini3 -p password -l 1 -z shutdown
+
+set_power -c gemini3 -p password -l 1 -z on 
+
+
+
+
+
+

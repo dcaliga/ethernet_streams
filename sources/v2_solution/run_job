@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+
+export LD_LIBRARY_PATH
+export MC_ROOT=/opt/srcci/comp54
+source $MC_ROOT/thisenv.sh
+export CARTE=/opt/srcci/comp54
+
+export LIBRARY_PATH=/home/caliga/bin:/usr/bin:/usr/lib:/opt/intel/Compiler/11.1/046/lib:/home/caliga/lib:/opt/intel/Compiler/11.1/046/lib/ia32:/opt/srcci/comp54/lib/libmap/libdebug
+
+export LD_LIBRARY_PATH=/home/caliga/bin:/usr/bin:/usr/lib:/opt/intel/Compiler/11.1/046/lib:/home/caliga/lib:/opt/intel/Compiler/11.1/046/lib/ia32
+
+env
+
+export USE_ETHER_SOCKETS=yes
+
+export SNAP_NETWORK_ADDRESS=192.168.0.10
+
+#export SNAP_NETWORK_ADDRESS=10.3.0.2
+
+export SNAP_DEBUG=xfer
+#export ETH_HOST_PORT_0=11211
+
+export MAPTRACEMASK=0x8000
+
+export MAPTARGET=map_m
+
+
+
+./ex_ethernet_streams.hw -f
